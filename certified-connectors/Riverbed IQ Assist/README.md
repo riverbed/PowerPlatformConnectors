@@ -1,42 +1,33 @@
 # Riverbed IQ Assist
-Riverbed IQ, Riverbed’s SaaS-based Unified Observability service, uses automated investigative workflows, 
-called runbooks, to enable faster, easier root cause analysis. The no-code runbooks play a significant role in 
-automating the troubleshooting processes. In fact, it mimics an organization’s troubleshooting workflows to 
-automate the collection of incident details.
 
-## Publisher: Riverbed Technology
+With this connector, [Riverbed IQ Assist](https://www.riverbed.com/enabling-technology/riverbed-iq-assist/) skills streamline ticket creation, routing, and resolution by providing contextual insights, tailored remediation recommendations, within the Power Platform.
+
+## Publisher
+
+[Riverbed Technology](https://www.riverbed.com)
 
 ## Prerequisites
-You need to have access to the Riverbed IQ product.
+
+An active account on the [Riverbed Platform](https://www.riverbed.com/platform/) is required.
 
 ## Supported Operations
 
-### FindUserEndpoint
-This operation searches for a user endpoint based on username, email or display name.
-
-### CreateTicket
-This operation creates a help desk ticket for a device.
-
-### GetRemediationRunStatus
-This operation fetches the remediation run status given a remediation run ID.
-
-### StartRemediationOnUserEndpoint
-This operation starts a remediation on a user device.
-
-### DiagnoseUserEndpoint
-This operation runs endpoint analysis to diagnose a device issue.
-
-### SuggestUserEndpointRemediation
-This operation suggests a remediation for a device based on diagnosis or symptoms.
-
-### GetOperationId
-This operation retrieves the status of a long-running operation initiated by one of the other operations.
+- Find User Endpoint: Search for an endpoint by username, email, or display name.
+- Create Ticket: Create a help desk ticket for a specified device.
+- Get Remediation Run Status: Fetch the status of a remediation run by ID.
+- Start Remediation on User Endpoint: Trigger a remediation on a user device.
+- Diagnose User Endpoint: Run endpoint diagnostics to analyze a device issue.
+- Suggest User Endpoint Remediation: Recommend a remediation based on a diagnosis or reported symptoms.
+- Get Operation ID: Retrieve the status of a long-running operation initiated by another action.
 
 ## Known Issues and Limitations
-The current version is limited to executing pre-mapped, built-in runbooks. Customization support for user-generated runbooks will be added in a future release.
+
+The current version supports executing pre-mapped, built-in runbooks only. Support for custom, user-authored runbooks will be added in a future release.
 
 ## Deployment Instructions
-Please use [the paconn cli tool](https://docs.microsoft.com/en-us/connectors/custom-connectors/paconn-cli) to deploy this connector as a custom connector in Microsoft Power Automate and Power Apps.
+
+Use this connector within Microsoft Power Platform experiences, including Copilot Agents and Power Automate.
 
 ## Support
-For further support, please contact support@riverbed.com.
+
+For further assistance, contact [support@riverbed.com](mailto:support@riverbed.com)
