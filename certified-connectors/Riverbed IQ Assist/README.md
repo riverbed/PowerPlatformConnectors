@@ -12,13 +12,13 @@ An active account on the [Riverbed Platform](https://www.riverbed.com/platform/)
 
 ## Supported Operations
 
-- Find User Endpoint: Search for an endpoint by username, email, or display name.
-- Create Ticket: Create a help desk ticket for a specified device.
-- Get Remediation Run Status: Fetch the status of a remediation run by ID.
-- Start Remediation on User Endpoint: Trigger a remediation on a user device.
-- Diagnose User Endpoint: Run endpoint diagnostics to analyze a device issue.
-- Suggest User Endpoint Remediation: Recommend a remediation based on a diagnosis or reported symptoms.
-- Get Operation ID: Retrieve the status of a long-running operation initiated by another action.
+- **Find User Endpoint**: Search for an endpoint by username, email, or display name.
+- **Create Ticket**: Create a help desk ticket for a specified device.
+- **Get Remediation Run Status**: Fetch the status of a remediation run by ID.
+- **Start Remediation on User Endpoint**: Trigger a remediation on a user device.
+- **Diagnose User Endpoint**: Run endpoint diagnostics to analyze a device issue.
+- **Suggest User Endpoint Remediation**: Recommend a remediation based on a diagnosis or reported symptoms.
+- **Get Operation ID**: Retrieve the status of a long-running operation initiated by another action.
 
 ## Known Issues and Limitations
 
